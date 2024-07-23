@@ -257,12 +257,83 @@
                                                         <td><?= $ul['is_active'] ?></td>
                                                         <td>
                                                             <div class="form-button-action">
-                                                                <a href="#EditDataLevel" type="button" data-toggle="modal" title="" class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
+                                                                <a href="#EditDataLevel<?=$ul['id_user']?>" type="button" data-toggle="modal" title="" class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
                                                                     <i class="fa fa-edit"></i>
                                                                 </a>
-                                                                <a href="#DeleteDataLevel" type="button" data-toggle="modal" title="" class="btn btn-link btn-danger" data-original-title="Delete">
+                                                                <a href="#DeleteDataLevel<?= $ul['id_user'] ?>" type="button" data-toggle="modal" title="" class="btn btn-link btn-danger" data-original-title="Delete">
                                                                     <i class="fa fa-times"></i>
                                                                 </a>
+                                                                <!-- Modal Edit Data -->
+                                                                <div class="modal fade" id="EditDataLevel<?=$ul['id_user']?>" tabindex="-1" role="dialog" aria-labelledby="TambahJadwal" aria-hidden="true">
+                                                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                                                        <div class="modal-content">
+                                                                            <div class="modal-header">
+                                                                                <h5 class="modal-title" id="Tambah Jadwal">Edit Data User Level</h5>
+                                                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                                    <span aria-hidden="true">&times;</span>
+                                                                                </button>
+                                                                            </div>
+                                                                            <form action="<?=route_to('EditLevelAccess'.$ul['id_user'])?>" method="post">
+                                                                                <?= csrf_field() ?>
+                                                                                <div class="modal-body">
+                                                                                    <div class="form-group">
+                                                                                        <label>Nama Guru</label>
+                                                                                        <select class="form-control form-control" id="nama" required>
+                                                                                            <option>Pijo</option>
+                                                                                            <option>Koda</option>
+                                                                                            <option>Loka</option>
+                                                                                        </select>
+                                                                                    </div>
+                                                                                    <div class="form-group">
+                                                                                        <label>Email</label>
+                                                                                        <input type="email" class="form-control" id="date" placeholder="Input Email disini ...">
+                                                                                    </div>
+                                                                                    <div class="form-group">
+                                                                                        <label>Level</label>
+                                                                                        <select class="form-control form-control" id="NamaGuru" required>
+                                                                                            <option>Admin</option>
+                                                                                            <option>User</option>
+                                                                                        </select>
+                                                                                    </div>
+                                                                                    <div class="form-group">
+                                                                                        <label>Status</label>
+                                                                                        <select class="form-control form-control" id="NamaGuru" required>
+                                                                                            <option>Active</option>
+                                                                                            <option>Not Activated</option>
+                                                                                        </select>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="modal-footer">
+                                                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                                                    <button type="submit" class="btn btn-primary">Save change</button>
+                                                                                </div>
+                                                                            </form>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <!-- Modal Delete Data -->
+                                                                <div class="modal fade" id="DeleteDataLevel<?=$ul['id_user']?>" tabindex="-1" role="dialog" aria-labelledby="DeleteDataLevel" aria-hidden="true">
+                                                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                                                        <div class="modal-content">
+                                                                            <div class="modal-header">
+                                                                                <h5 class="modal-title" id="DeleteDataLevel">Delete Jadwal</h5>
+                                                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                                    <span aria-hidden="true">&times;</span>
+                                                                                </button>
+                                                                            </div>
+                                                                            <form action="<?= route_to('DelLevelAccess'.$ul['id_user']) ?>" method="post">
+                                                                                <?= csrf_field() ?>
+                                                                                <div class="modal-body">
+                                                                                    <p>Yakin ingin menghapus data ini? </p>
+                                                                                </div>
+                                                                                <div class="modal-footer">
+                                                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                                                    <button type="submit" class="btn btn-primary">Yes, Delete</button>
+                                                                                </div>
+                                                                            </form>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -523,81 +594,6 @@
                 </div>
             </div>
         </div>
-
-        <!-- Modal Edit Data -->
-        <div class="modal fade" id="EditDataLevel" tabindex="-1" role="dialog" aria-labelledby="TambahJadwal" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="Tambah Jadwal">Edit Data User Level</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <form action="" method="post">
-                        <?= csrf_field() ?>
-                        <div class="modal-body">
-                            <div class="form-group">
-                                <label>Nama Guru</label>
-                                <select class="form-control form-control" id="nama" required>
-                                    <option>Pijo</option>
-                                    <option>Koda</option>
-                                    <option>Loka</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label>Email</label>
-                                <input type="email" class="form-control" id="date" placeholder="Input Email disini ...">
-                            </div>
-                            <div class="form-group">
-                                <label>Level</label>
-                                <select class="form-control form-control" id="NamaGuru" required>
-                                    <option>Admin</option>
-                                    <option>User</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label>Status</label>
-                                <select class="form-control form-control" id="NamaGuru" required>
-                                    <option>Active</option>
-                                    <option>Not Activated</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save change</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-
-        <!-- Modal Delete Data -->
-        <?php foreach ($check as $ch) : ?>
-        <div class="modal fade" id="DeleteDataLevel" tabindex="-1" role="dialog" aria-labelledby="TambahJadwal" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="Tambah Jadwal">Delete Jadwal</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <form action="<?=route_to('DelLevelAccess' . $ch['id_user'])?>" method="post">
-                        <?= csrf_field() ?>
-                        <div class="modal-body">
-                            <p>Yakin ingin menghapus data ini? </p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save change</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-        <?php endforeach; ?>
 
 </body>
 

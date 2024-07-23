@@ -10,4 +10,9 @@ class AdminModel extends Model
     protected $primaryKey = 'id_user';
     protected $useAutoIncrement = true;
     protected $allowedFields = ['nama', 'email', 'password', 'no_telp', 'bio', 'is_verif', 'is_active', 'created_at', 'level'];
+
+    public function del($id)
+    {
+        return $this->delete($id);
+    }
 }

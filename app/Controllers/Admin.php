@@ -15,7 +15,8 @@ class Admin extends Controller
     public function LevelAccess()
     {
         $model = new AdminModel();
-        $data['check'] = $model->where('is_verif', 1)->where('level', 'user')->where('id_user')->findAll();
+        // $data['check'] = $model->where('is_verif', 1)->where('level', 'user')->where('id_user')->findAll();
+        // $data['check'] = $model->findAll();
         $data['userlevel'] = $model->where('level', 'admin')->findAll();
 
         return view('Admin/LevelAccess', $data);
@@ -51,33 +52,33 @@ class Admin extends Controller
 
     public function EditLevelAccess($id)
     {
-        // $model = new AdminModel();
-        // $data['check'] = $model->where('id_user', $id)->first();
+        $model = new AdminModel();
+        $data['check'] = $model->where('id_user', $id)->first();
 
-        // $validation =  \Config\Services::validation();
-        // $validation->setRules([
-        //     'id_user' => 'required',
-        //     'title' => 'required'
-        // ]);
-        // $isDataValid = $validation->withRequest($this->request)->run();
-        // // jika data vlid, maka simpan ke database
-        // if ($isDataValid) {
-        //     $model->update($id, [
-        //         "title" => $this->request->getPost('title'),
-        //         "content" => $this->request->getPost('content'),
-        //         "status" => $this->request->getPost('status')
-        //     ]);
-        //     return redirect('admin/news');
-        // }
+        $validation =  \Config\Services::validation();
+        $validation->setRules([
+            'id_user' => 'required',
+            'title' => 'required'
+        ]);
+        $isDataValid = $validation->withRequest($this->request)->run();
+        // jika data vlid, maka simpan ke database
+        if ($isDataValid) {
+            $model->update($id, [
+                "title" => $this->request->getPost('title'),
+                "content" => $this->request->getPost('content'),
+                "status" => $this->request->getPost('status')
+            ]);
+            return redirect('admin/news');
+        }
 
-        // // tampilkan form edit
-        // echo view('admin_edit_news', $data);
+        // tampilkan form edit
+        echo view('admin_edit_news', $data);
     }
 
     public function DelLevelAccess($id = null)
     {
         $model = new AdminModel();
-        $data['check'] = $model->where('id_user', $id)->delete();
+        $model->del($id);
 
         session()->setFlashdata('message', 'Data berhasil di delete');
         return redirect()->route('LevelAccessAdmin');

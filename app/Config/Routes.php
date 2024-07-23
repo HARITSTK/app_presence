@@ -28,8 +28,10 @@ $routes->get('/PresensiJadwalUser', 'User::Jadwal');
 $routes->get('/DashboardAdmin', 'Admin::index');
 
 $routes->get('/LevelAccessAdmin', 'Admin::LevelAccess');
+// $routes->post('/LevelAccessAdmin', 'Admin::LevelAccess');
 $routes->post('/CreateLevelAccess', 'Admin::CreateLevelAccess');
-$routes->post('/DelLevelAccess', 'Admin::DelLevelAccess');
+$routes->post('/DelLevelAccess/(:num)', 'Admin::DelLevelAccess/$1');
+$routes->post('/EditLevelAccess/(:num)', 'Admin::EditLevelAccess/$1');
 
 $routes->get('/PresensiGuruAdmin', 'Admin::PresensiGuru');
 

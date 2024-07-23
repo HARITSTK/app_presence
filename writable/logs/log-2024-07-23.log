@@ -140,3 +140,313 @@ in APPPATH\Views\Admin\PresensiGuru.php on line 356.
 12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\app_presence\\public\\index.php')
 INFO - 2024-07-23 01:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-07-23 01:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:07:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 05:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 05:29:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 05:36:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 05:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 05:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-23 05:40:50 --> ErrorException: Undefined array key "id_user"
+[Method: GET, Route: LevelAccessAdmin]
+in APPPATH\Views\Admin\LevelAccess.php on line 586.
+ 1 APPPATH\Views\Admin\LevelAccess.php(586): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_user"', 'C:\\xampp\\htdocs\\app_presence\\app\\Views\\Admin\\LevelAccess.php', 586)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\app_presence\\app\\Views\\Admin\\LevelAccess.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Admin/LevelAccess', [], true)
+ 5 APPPATH\Controllers\Admin.php(21): view('Admin/LevelAccess', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->LevelAccess()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\app_presence\\public\\index.php')
+INFO - 2024-07-23 07:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-23 07:16:25 --> ErrorException: Undefined array key "id_user"
+[Method: GET, Route: LevelAccessAdmin]
+in APPPATH\Views\Admin\LevelAccess.php on line 586.
+ 1 APPPATH\Views\Admin\LevelAccess.php(586): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_user"', 'C:\\xampp\\htdocs\\app_presence\\app\\Views\\Admin\\LevelAccess.php', 586)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\app_presence\\app\\Views\\Admin\\LevelAccess.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Admin/LevelAccess', [], true)
+ 5 APPPATH\Controllers\Admin.php(22): view('Admin/LevelAccess', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->LevelAccess()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\app_presence\\public\\index.php')
+INFO - 2024-07-23 07:16:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-23 07:16:57 --> ErrorException: Undefined array key "id_user"
+[Method: GET, Route: LevelAccessAdmin]
+in APPPATH\Views\Admin\LevelAccess.php on line 586.
+ 1 APPPATH\Views\Admin\LevelAccess.php(586): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_user"', 'C:\\xampp\\htdocs\\app_presence\\app\\Views\\Admin\\LevelAccess.php', 586)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\app_presence\\app\\Views\\Admin\\LevelAccess.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Admin/LevelAccess', [], true)
+ 5 APPPATH\Controllers\Admin.php(22): view('Admin/LevelAccess', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->LevelAccess()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\app_presence\\public\\index.php')
+INFO - 2024-07-23 07:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-23 07:17:36 --> ErrorException: Undefined variable $userlevel
+[Method: GET, Route: LevelAccessAdmin]
+in APPPATH\Views\Admin\LevelAccess.php on line 251.
+ 1 APPPATH\Views\Admin\LevelAccess.php(251): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userlevel', 'C:\\xampp\\htdocs\\app_presence\\app\\Views\\Admin\\LevelAccess.php', 251)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\app_presence\\app\\Views\\Admin\\LevelAccess.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Admin/LevelAccess', [], true)
+ 5 APPPATH\Controllers\Admin.php(22): view('Admin/LevelAccess', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->LevelAccess()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\app_presence\\public\\index.php')
+INFO - 2024-07-23 07:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-23 07:17:55 --> ErrorException: Undefined variable $userlevel
+[Method: GET, Route: LevelAccessAdmin]
+in APPPATH\Views\Admin\LevelAccess.php on line 251.
+ 1 APPPATH\Views\Admin\LevelAccess.php(251): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userlevel', 'C:\\xampp\\htdocs\\app_presence\\app\\Views\\Admin\\LevelAccess.php', 251)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\app_presence\\app\\Views\\Admin\\LevelAccess.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Admin/LevelAccess', [], true)
+ 5 APPPATH\Controllers\Admin.php(22): view('Admin/LevelAccess', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->LevelAccess()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\app_presence\\public\\index.php')
+INFO - 2024-07-23 07:18:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-23 07:18:08 --> ErrorException: Undefined variable $check
+[Method: GET, Route: LevelAccessAdmin]
+in APPPATH\Views\Admin\LevelAccess.php on line 586.
+ 1 APPPATH\Views\Admin\LevelAccess.php(586): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $check', 'C:\\xampp\\htdocs\\app_presence\\app\\Views\\Admin\\LevelAccess.php', 586)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\app_presence\\app\\Views\\Admin\\LevelAccess.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Admin/LevelAccess', [], true)
+ 5 APPPATH\Controllers\Admin.php(22): view('Admin/LevelAccess', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->LevelAccess()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\app_presence\\public\\index.php')
+INFO - 2024-07-23 07:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-23 07:18:21 --> ErrorException: Undefined variable $check
+[Method: GET, Route: LevelAccessAdmin]
+in APPPATH\Views\Admin\LevelAccess.php on line 251.
+ 1 APPPATH\Views\Admin\LevelAccess.php(251): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $check', 'C:\\xampp\\htdocs\\app_presence\\app\\Views\\Admin\\LevelAccess.php', 251)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\app_presence\\app\\Views\\Admin\\LevelAccess.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Admin/LevelAccess', [], true)
+ 5 APPPATH\Controllers\Admin.php(22): view('Admin/LevelAccess', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->LevelAccess()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\app_presence\\public\\index.php')
+INFO - 2024-07-23 07:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-23 07:18:28 --> ErrorException: Undefined array key "id_user"
+[Method: GET, Route: LevelAccessAdmin]
+in APPPATH\Views\Admin\LevelAccess.php on line 586.
+ 1 APPPATH\Views\Admin\LevelAccess.php(586): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_user"', 'C:\\xampp\\htdocs\\app_presence\\app\\Views\\Admin\\LevelAccess.php', 586)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\app_presence\\app\\Views\\Admin\\LevelAccess.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Admin/LevelAccess', [], true)
+ 5 APPPATH\Controllers\Admin.php(22): view('Admin/LevelAccess', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->LevelAccess()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\app_presence\\public\\index.php')
+INFO - 2024-07-23 07:18:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-23 07:18:42 --> ErrorException: Undefined array key "id_user"
+[Method: GET, Route: LevelAccessAdmin]
+in APPPATH\Views\Admin\LevelAccess.php on line 586.
+ 1 APPPATH\Views\Admin\LevelAccess.php(586): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_user"', 'C:\\xampp\\htdocs\\app_presence\\app\\Views\\Admin\\LevelAccess.php', 586)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\app_presence\\app\\Views\\Admin\\LevelAccess.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Admin/LevelAccess', [], true)
+ 5 APPPATH\Controllers\Admin.php(22): view('Admin/LevelAccess', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->LevelAccess()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\app_presence\\public\\index.php')
+INFO - 2024-07-23 07:20:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-23 07:20:08 --> ErrorException: Undefined array key "id_user"
+[Method: GET, Route: LevelAccessAdmin]
+in APPPATH\Views\Admin\LevelAccess.php on line 586.
+ 1 APPPATH\Views\Admin\LevelAccess.php(586): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_user"', 'C:\\xampp\\htdocs\\app_presence\\app\\Views\\Admin\\LevelAccess.php', 586)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\app_presence\\app\\Views\\Admin\\LevelAccess.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Admin/LevelAccess', [], true)
+ 5 APPPATH\Controllers\Admin.php(22): view('Admin/LevelAccess', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->LevelAccess()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\app_presence\\public\\index.php')
+INFO - 2024-07-23 07:20:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-23 07:20:16 --> ErrorException: Undefined array key "id_user"
+[Method: GET, Route: LevelAccessAdmin]
+in APPPATH\Views\Admin\LevelAccess.php on line 586.
+ 1 APPPATH\Views\Admin\LevelAccess.php(586): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_user"', 'C:\\xampp\\htdocs\\app_presence\\app\\Views\\Admin\\LevelAccess.php', 586)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\app_presence\\app\\Views\\Admin\\LevelAccess.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Admin/LevelAccess', [], true)
+ 5 APPPATH\Controllers\Admin.php(22): view('Admin/LevelAccess', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->LevelAccess()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\app_presence\\public\\index.php')
+INFO - 2024-07-23 07:20:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-23 07:20:17 --> ErrorException: Undefined array key "id_user"
+[Method: GET, Route: LevelAccessAdmin]
+in APPPATH\Views\Admin\LevelAccess.php on line 586.
+ 1 APPPATH\Views\Admin\LevelAccess.php(586): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_user"', 'C:\\xampp\\htdocs\\app_presence\\app\\Views\\Admin\\LevelAccess.php', 586)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\app_presence\\app\\Views\\Admin\\LevelAccess.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Admin/LevelAccess', [], true)
+ 5 APPPATH\Controllers\Admin.php(22): view('Admin/LevelAccess', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->LevelAccess()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\app_presence\\public\\index.php')
+INFO - 2024-07-23 07:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-23 07:20:18 --> ErrorException: Undefined array key "id_user"
+[Method: GET, Route: LevelAccessAdmin]
+in APPPATH\Views\Admin\LevelAccess.php on line 586.
+ 1 APPPATH\Views\Admin\LevelAccess.php(586): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_user"', 'C:\\xampp\\htdocs\\app_presence\\app\\Views\\Admin\\LevelAccess.php', 586)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\app_presence\\app\\Views\\Admin\\LevelAccess.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Admin/LevelAccess', [], true)
+ 5 APPPATH\Controllers\Admin.php(22): view('Admin/LevelAccess', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->LevelAccess()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\app_presence\\public\\index.php')
+INFO - 2024-07-23 07:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-23 07:25:27 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: LevelAccessAdmin]
+in APPPATH\Views\Admin\LevelAccess.php on line 263.
+ 1 APPPATH\Views\Admin\LevelAccess.php(263): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\app_presence\\app\\Views\\Admin\\LevelAccess.php', 263)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\app_presence\\app\\Views\\Admin\\LevelAccess.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Admin/LevelAccess', [], true)
+ 5 APPPATH\Controllers\Admin.php(22): view('Admin/LevelAccess', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->LevelAccess()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\app_presence\\public\\index.php')
+INFO - 2024-07-23 07:25:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-23 07:25:36 --> ErrorException: Undefined array key "id_user"
+[Method: GET, Route: LevelAccessAdmin]
+in APPPATH\Views\Admin\LevelAccess.php on line 586.
+ 1 APPPATH\Views\Admin\LevelAccess.php(586): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_user"', 'C:\\xampp\\htdocs\\app_presence\\app\\Views\\Admin\\LevelAccess.php', 586)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\app_presence\\app\\Views\\Admin\\LevelAccess.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Admin/LevelAccess', [], true)
+ 5 APPPATH\Controllers\Admin.php(22): view('Admin/LevelAccess', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->LevelAccess()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\app_presence\\public\\index.php')
+INFO - 2024-07-23 07:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-23 07:28:15 --> ErrorException: Undefined array key "id_user"
+[Method: GET, Route: LevelAccessAdmin]
+in APPPATH\Views\Admin\LevelAccess.php on line 586.
+ 1 APPPATH\Views\Admin\LevelAccess.php(586): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_user"', 'C:\\xampp\\htdocs\\app_presence\\app\\Views\\Admin\\LevelAccess.php', 586)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\app_presence\\app\\Views\\Admin\\LevelAccess.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Admin/LevelAccess', [], true)
+ 5 APPPATH\Controllers\Admin.php(22): view('Admin/LevelAccess', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->LevelAccess()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\app_presence\\public\\index.php')
+INFO - 2024-07-23 07:28:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 07:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 07:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 07:31:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 07:32:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 07:32:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 07:33:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 07:34:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 07:35:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 07:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 07:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 07:36:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 07:36:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 07:36:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 07:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 07:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 07:39:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 07:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 07:39:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 07:39:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 07:40:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 07:40:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 07:40:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 07:40:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 07:40:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 07:40:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 07:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 07:41:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 07:50:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 07:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 07:51:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 07:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 07:57:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 07:57:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 07:57:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 07:57:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 08:01:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 08:01:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 08:03:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 08:03:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 08:03:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 08:04:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 08:04:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 08:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 08:05:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 08:05:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 08:05:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 08:09:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 08:09:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
